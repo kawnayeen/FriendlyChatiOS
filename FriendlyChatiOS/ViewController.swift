@@ -7,19 +7,36 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseRemoteConfig
 
 class ViewController: UIViewController {
 
+    var remoteConfig : RemoteConfig?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        configureRemoteConfig()
+        fetchConfig()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func configureRemoteConfig() {
+        let remoteConfigSettings = RemoteConfigSettings(developerModeEnabled: true)
+        remoteConfig = RemoteConfig.remoteConfig()
+        remoteConfig?.configSettings = remoteConfigSettings!
     }
-
-
+    
+    func fetchConfig() {
+        remoteConfig?.fetch(completionHandler: { (status, error) in
+            if status == .success {
+                self.remoteConfig?.activateFetched()
+                let friendlyMsgLength = self.remoteConfig?["friendly_msg_length"]
+                print("config fetched: \(friendlyMsgLength!.numberValue!)")
+            } else {
+                print("config failed")
+            }
+        })
+    }
 }
 
