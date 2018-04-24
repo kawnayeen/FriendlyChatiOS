@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8275195208741D900EDBF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8275194208741D900EDBF38 /* AppDelegate.swift */; };
+		C8275197208741D900EDBF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8275196208741D900EDBF38 /* ViewController.swift */; };
+		C827519A208741D900EDBF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8275198208741D900EDBF38 /* Main.storyboard */; };
+		C827519C208741DA00EDBF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C827519B208741DA00EDBF38 /* Assets.xcassets */; };
+		C827519F208741DA00EDBF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C827519D208741DA00EDBF38 /* LaunchScreen.storyboard */; };
+		C8AAF259208F26FD003D86DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8AAF258208F26FD003D86DB /* GoogleService-Info.plist */; };
+		C8D2C75D208EFF2A005CAC49 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C756208EFF29005CAC49 /* FirebaseNanoPB.framework */; };
+		C8D2C75E208EFF2A005CAC49 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C757208EFF29005CAC49 /* GoogleToolboxForMac.framework */; };
+		C8D2C75F208EFF2A005CAC49 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C758208EFF29005CAC49 /* FirebaseInstanceID.framework */; };
+		C8D2C760208EFF2A005CAC49 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C759208EFF29005CAC49 /* FirebaseCore.framework */; };
+		C8D2C761208EFF2A005CAC49 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C75A208EFF29005CAC49 /* FirebaseCoreDiagnostics.framework */; };
+		C8D2C762208EFF2A005CAC49 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C75B208EFF29005CAC49 /* nanopb.framework */; };
+		C8D2C763208EFF2A005CAC49 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C75C208EFF2A005CAC49 /* FirebaseAnalytics.framework */; };
+		C8D2C767208EFF65005CAC49 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C764208EFF65005CAC49 /* FirebaseRemoteConfig.framework */; };
+		C8D2C768208EFF65005CAC49 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C765208EFF65005CAC49 /* FirebaseABTesting.framework */; };
+		C8D2C769208EFF65005CAC49 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D2C766208EFF65005CAC49 /* Protobuf.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8275191208741D900EDBF38 /* FriendlyChatiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendlyChatiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8275194208741D900EDBF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8275196208741D900EDBF38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8275199208741D900EDBF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C827519B208741DA00EDBF38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C827519E208741DA00EDBF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82751A0208741DB00EDBF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AAF256208F1F37003D86DB /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		C8AAF257208F2315003D86DB /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		C8AAF258208F26FD003D86DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8D2C756208EFF29005CAC49 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		C8D2C757208EFF29005CAC49 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		C8D2C758208EFF29005CAC49 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		C8D2C759208EFF29005CAC49 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		C8D2C75A208EFF29005CAC49 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		C8D2C75B208EFF29005CAC49 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		C8D2C75C208EFF2A005CAC49 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C8D2C764208EFF65005CAC49 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		C8D2C765208EFF65005CAC49 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = "<group>"; };
+		C8D2C766208EFF65005CAC49 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C827518E208741D900EDBF38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D2C760208EFF2A005CAC49 /* FirebaseCore.framework in Frameworks */,
+				C8D2C75D208EFF2A005CAC49 /* FirebaseNanoPB.framework in Frameworks */,
+				C8D2C761208EFF2A005CAC49 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				C8D2C75F208EFF2A005CAC49 /* FirebaseInstanceID.framework in Frameworks */,
+				C8D2C763208EFF2A005CAC49 /* FirebaseAnalytics.framework in Frameworks */,
+				C8D2C768208EFF65005CAC49 /* FirebaseABTesting.framework in Frameworks */,
+				C8D2C767208EFF65005CAC49 /* FirebaseRemoteConfig.framework in Frameworks */,
+				C8D2C769208EFF65005CAC49 /* Protobuf.framework in Frameworks */,
+				C8D2C762208EFF2A005CAC49 /* nanopb.framework in Frameworks */,
+				C8D2C75E208EFF2A005CAC49 /* GoogleToolboxForMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8275188208741D800EDBF38 = {
+			isa = PBXGroup;
+			children = (
+				C8275193208741D900EDBF38 /* FriendlyChatiOS */,
+				C8275192208741D900EDBF38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8275192208741D900EDBF38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8275191208741D900EDBF38 /* FriendlyChatiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8275193208741D900EDBF38 /* FriendlyChatiOS */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAF258208F26FD003D86DB /* GoogleService-Info.plist */,
+				C8AAF256208F1F37003D86DB /* Firebase.h */,
+				C8AAF257208F2315003D86DB /* module.modulemap */,
+				C8D2C753208EFCC0005CAC49 /* Firebase */,
+				C8275194208741D900EDBF38 /* AppDelegate.swift */,
+				C8275196208741D900EDBF38 /* ViewController.swift */,
+				C8275198208741D900EDBF38 /* Main.storyboard */,
+				C827519B208741DA00EDBF38 /* Assets.xcassets */,
+				C827519D208741DA00EDBF38 /* LaunchScreen.storyboard */,
+				C82751A0208741DB00EDBF38 /* Info.plist */,
+			);
+			path = FriendlyChatiOS;
+			sourceTree = "<group>";
+		};
+		C8D2C753208EFCC0005CAC49 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C8D2C765208EFF65005CAC49 /* FirebaseABTesting.framework */,
+				C8D2C764208EFF65005CAC49 /* FirebaseRemoteConfig.framework */,
+				C8D2C766208EFF65005CAC49 /* Protobuf.framework */,
+				C8D2C75C208EFF2A005CAC49 /* FirebaseAnalytics.framework */,
+				C8D2C759208EFF29005CAC49 /* FirebaseCore.framework */,
+				C8D2C75A208EFF29005CAC49 /* FirebaseCoreDiagnostics.framework */,
+				C8D2C758208EFF29005CAC49 /* FirebaseInstanceID.framework */,
+				C8D2C756208EFF29005CAC49 /* FirebaseNanoPB.framework */,
+				C8D2C757208EFF29005CAC49 /* GoogleToolboxForMac.framework */,
+				C8D2C75B208EFF29005CAC49 /* nanopb.framework */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8275190208741D900EDBF38 /* FriendlyChatiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82751A3208741DB00EDBF38 /* Build configuration list for PBXNativeTarget "FriendlyChatiOS" */;
+			buildPhases = (
+				C827518D208741D900EDBF38 /* Sources */,
+				C827518E208741D900EDBF38 /* Frameworks */,
+				C827518F208741D900EDBF38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendlyChatiOS;
+			productName = FriendlyChatiOS;
+			productReference = C8275191208741D900EDBF38 /* FriendlyChatiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8275189208741D800EDBF38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Kawnayeen;
+				TargetAttributes = {
+					C8275190208741D900EDBF38 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C827518C208741D800EDBF38 /* Build configuration list for PBXProject "FriendlyChatiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8275188208741D800EDBF38;
+			productRefGroup = C8275192208741D900EDBF38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8275190208741D900EDBF38 /* FriendlyChatiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C827518F208741D900EDBF38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C827519F208741DA00EDBF38 /* LaunchScreen.storyboard in Resources */,
+				C8AAF259208F26FD003D86DB /* GoogleService-Info.plist in Resources */,
+				C827519C208741DA00EDBF38 /* Assets.xcassets in Resources */,
+				C827519A208741D900EDBF38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C827518D208741D900EDBF38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8275197208741D900EDBF38 /* ViewController.swift in Sources */,
+				C8275195208741D900EDBF38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8275198208741D900EDBF38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8275199208741D900EDBF38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C827519D208741DA00EDBF38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C827519E208741DA00EDBF38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82751A1208741DB00EDBF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C82751A2208741DB00EDBF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82751A4208741DB00EDBF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FriendlyChatiOS/Firebase",
+				);
+				INFOPLIST_FILE = FriendlyChatiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kawnayeen.cs193p.FriendlyChatiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C82751A5208741DB00EDBF38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FriendlyChatiOS/Firebase",
+				);
+				INFOPLIST_FILE = FriendlyChatiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kawnayeen.cs193p.FriendlyChatiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C827518C208741D800EDBF38 /* Build configuration list for PBXProject "FriendlyChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82751A1208741DB00EDBF38 /* Debug */,
+				C82751A2208741DB00EDBF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82751A3208741DB00EDBF38 /* Build configuration list for PBXNativeTarget "FriendlyChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82751A4208741DB00EDBF38 /* Debug */,
+				C82751A5208741DB00EDBF38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8275189208741D800EDBF38 /* Project object */;
+}
